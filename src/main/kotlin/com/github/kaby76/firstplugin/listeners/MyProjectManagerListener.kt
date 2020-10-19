@@ -1,8 +1,8 @@
-package org.jetbrains.plugins.template.listeners
+package com.github.kaby76.firstplugin.listeners
 
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.project.ProjectManagerListener
-import org.jetbrains.plugins.template.services.MyProjectService
+import com.github.kaby76.firstplugin.services.MyProjectService
 
 internal class MyProjectManagerListener : ProjectManagerListener {
 
